@@ -1,7 +1,7 @@
 development:
  adapter: postgresql
  encoding: unicode
- database: action-cable-chat-development
+ database: action-cable-chat-app-development
  host: localhost
  pool: 5
  username: postgres
@@ -10,7 +10,7 @@ development:
 test:
  adapter: postgresql
  encoding: unicode
- database: action-cable-chat-test
+ database: action-cable-chat-app-test
  host: localhost
  pool: 5
  username: postgres

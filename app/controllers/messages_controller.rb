@@ -1,6 +1,6 @@
 class MessagesController < ApplicationController
 
-def create
+  def create
     message = Message.new(message_params)
     message.user = current_user
     if message.save
@@ -10,6 +10,7 @@ def create
       head :ok
     end
   end
+
   private
 
     def message_params
