@@ -1,7 +1,7 @@
 {
   "name": "Chatty",
   "description": "An Action Cable + Rails 5 example app",
-  "repository": "https://github.com/SophieDeBenedetto/action-cable-example",
+  "repository": "https://github.com/subhashsaran/action-cable-chat",
   "keywords": ["rails 5", "action cable", "websockets"],
   "success_url": "/",
   "scripts": {
